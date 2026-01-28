@@ -197,8 +197,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <h2 className="font-semibold text-2xl text-balance">Import Your Bookmarks</h2>
                   <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-                    Upload your Chrome bookmarks CSV or HTML file to organize and access your saved links with their
-                    folder structure preserved.
+                    Upload your Chrome bookmarks CSV or HTML file to organize and access your saved links with their folder structure preserved
                   </p>
                 </div>
                 <BookmarkUpload onImport={handleBookmarksImport} />
